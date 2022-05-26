@@ -117,15 +117,15 @@
 .maininfo{
     background-color: darkorange;
 }
-.main .resume{
-    position: relative;
+
+.resumecontainer .resume{
     border-radius: 8px;
     padding: 10px;
     background-color: blue;
     color: white;
     text-decoration: none;
 }
-.main .resume:hover{
+.resumecontainer .resume:hover{
     cursor: pointer;
     background-color: white;
     color: blue;
@@ -137,4 +137,27 @@
     flex-direction: column;
     height: 20vh;
     padding: 20px 20px;
+}
+.resumecontainer{
+    /* display: flex; */
+    /* justify-content: center; */
+    border: 1px solid red;
+    box-shadow: 2px 2px 10px;
+    position: fixed;
+    top: 25%;
+    left: 40%;
+    text-shadow: 1px 1px #ff0000;
+    font-family: Smooch;
+    background-image: radial-gradient(circle, aqua, rgb(158, 239, 158), rgb(242, 108, 108));
+    transform: rotate(-5deg);
+    transform: rotateZ(10deg);
+}
+.resumecontainer .hand{
+    position: relative;
+    top: 30%;
+    left: 25%;
+}
+.resumecontainer .resume{
+    position: relative;
+    top: ;
 }
