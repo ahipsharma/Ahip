@@ -24,7 +24,6 @@
     color: black;
 }
 .main {
-    /* background-color: yellow; */
     width: 100vw;
 }
 
@@ -36,7 +35,6 @@
     justify-content: space-around;
     margin: 144px auto;
     height: 78vh;
-    /* background-color: green; */
     height: 45vh;
     width: 80vw;
 }
