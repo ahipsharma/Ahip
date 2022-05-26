@@ -88,9 +88,6 @@
 .contactForm h1{
      text-align: center;
 }
-.contactForm h3{
-     text-align: center;
-}
 .contactForm form div{
     padding: 5px 0;
 }
@@ -122,14 +119,24 @@
 .maininfo{
     background-color: darkorange;
 }
+.main .resume{
+    position: relative;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+}
+.main .resume:hover{
+    cursor: pointer;
+    background-color: white;
+    color: blue;
+    transition: 0.4s ease-out;
+}
 .infocontainer{
     display: flex;
     align-items: center;
     flex-direction: column;
-    /* background-color: rgb(235, 152, 233); */
     height: 20vh;
     padding: 20px 20px;
-}
-.infocontainer skills{
-    
 }
