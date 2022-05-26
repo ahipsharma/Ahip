@@ -88,6 +88,9 @@
 .contactForm h1{
      text-align: center;
 }
+.contactForm h3{
+     text-align: center;
+}
 .contactForm form div{
     padding: 5px 0;
 }
