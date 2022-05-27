@@ -183,17 +183,10 @@
     }
     
 }
-<<<<<<< HEAD
-@media (max-width: 1691px) {
-=======
-@media (max-width: 400px) {
->>>>>>> 43d95fbea8e75d3fea09d6192d11a53b418d2e97
+
+@media (max-width: 1198px) {
     .devPic img{
         top: 291px;
         right: 681px;
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 43d95fbea8e75d3fea09d6192d11a53b418d2e97
