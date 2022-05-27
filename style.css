@@ -7,10 +7,12 @@
 }
 
 .sidebar {
+    position: absolute;
     background-color: rgb(197, 190, 190);
     font-family: BIZ UDPGothic;
     height: 100vh;
-    width: 434px;
+    width: 211px;
+    transition: transform 0.3s ease-in;
 }
 
 .sidebar nav li{
@@ -82,6 +84,7 @@
 .contactForm{
     padding: 0 34px;
     padding-top: 144px;
+    margin-left: 304px;
 }
 .contactForm h1{
      text-align: center;
@@ -156,4 +159,24 @@
     position: relative;
     top: 30%;
     left: 25%;
+}
+.sidebarGo{
+    transform: translate(-435px,10px);
+    position: absolute;
+}
+.icons{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 7px;
+}
+.cross{
+    margin-left: 150px;
+}
+@media screen and (max-width: 900px){
+    
+    /* .sidebar{
+        transform: translate(-435px,10px);
+        position: absolute;
+    } */
 }
