@@ -7,12 +7,10 @@
 }
 
 .sidebar {
-    position: absolute;
     background-color: rgb(197, 190, 190);
     font-family: BIZ UDPGothic;
     height: 100vh;
-    width: 211px;
-    transition: transform 0.3s ease-in;
+    width: 338px;
 }
 
 .sidebar nav li{
@@ -33,12 +31,13 @@
     display: flex;
 }
 .infoContainer{
+    /* border: 2px solid red; */
     display: flex;
     justify-content: space-around;
     margin: 144px auto;
-    height: 78vh;
-    height: 45vh;
-    width: 80vw;
+    /* height: 78vh; */
+    height: 200px;
+    width: 1000px
 }
 .devInfo{
     display: flex;
@@ -78,13 +77,13 @@
 }
 .devPic img{
     position: relative;
-    top: 10vh;
+    top: 0;
     height: 20vh;
 }
 .contactForm{
+    position: absolute;
     padding: 0 34px;
     padding-top: 144px;
-    margin-left: 304px;
 }
 .contactForm h1{
      text-align: center;
@@ -111,8 +110,8 @@
 .infodevPic{
     display: flex;
     position: absolute;
-    top: 5vh;
-    right: 25%;
+    top: 0vh;
+    right: 26%;
     margin: auto;
     height: 20%;
     width: 20%;
@@ -160,23 +159,33 @@
     top: 30%;
     left: 25%;
 }
-.sidebarGo{
-    transform: translate(-435px,10px);
-    position: absolute;
-}
 .icons{
     position: absolute;
-    cursor: pointer;
     top: 10px;
-    left: 7px;
+    left: 10px;
+    cursor: pointer;
 }
 .cross{
-    margin-left: 150px;
+    margin-left: 237px;
 }
-@media screen and (max-width: 900px){
-    
-    /* .sidebar{
-        transform: translate(-435px,10px);
-        position: absolute;
+.sidebarGo{
+    transform: translate(-435px, 10px);
+    position: absolute;
+}
+
+@media (max-width: 930px){
+    /* *{
+        background-color: rebeccapurple;
     } */
+    .sidebar{
+        transform: translate(-435px, 10px);
+        position: absolute;
+    }
+    
+}
+@media (max-width: 1691px) {
+    .devPic img{
+        top: 291px;
+        right: 681px;
+    }
 }
