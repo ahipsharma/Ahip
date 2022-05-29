@@ -192,57 +192,68 @@
     position: absolute;
 }
 
-.handFan {
-    animation: animate 1.5s linear infinite;
+.Hi:hover{
+    animation: animate 3s linear infinite;
 }
-.handFan img{
+.Hi img{
     position: relative;
-    width: 184px;
+    width: 104px;
     background-size: cover;
 }
 
 @keyframes animate {
     0% {
+        filter: hue-rotate(0deg);
         -webkit-transform: rotate(0deg);
     }
 
     10% {
+        filter: hue-rotate(180deg);
         -webkit-transform: rotate(10deg);
     }
 
     20% {
+        filter: hue-rotate(360deg);
         -webkit-transform: rotate(20deg);
     }
 
     30% {
+        filter: hue-rotate(0deg);
         -webkit-transform: rotate(10deg);
     }
 
     40% {
+        filter: hue-rotate(180deg);
         -webkit-transform: rotate(5deg);
     }
 
     50% {
+        filter: hue-rotate(360deg);
         -webkit-transform: rotate(0deg);
     }
 
     60% {
+        filter: hue-rotate(0deg);
         -webkit-transform: rotate(-5deg);
     }
 
     70% {
+        filter: hue-rotate(0deg);
         -webkit-transform: rotate(-10deg);
     }
 
     80% {
+        filter: hue-rotate(180deg);
         -webkit-transform: rotate(-20deg);
     }
 
     90% {
+        filter: hue-rotate(360deg);
         -webkit-transform: rotate(-10deg);
     }
 
     100% {
+        filter: hue-rotate(0deg);
         -webkit-transform: rotate(0deg);
     }
 }
@@ -318,7 +329,49 @@ hr {
     color: white;
     background-image: linear-gradient(to right bottom, rgb(228, 192, 192), #ca9914a8);
 }
-.container:hover
-{
-    box-shadow: 0 10px 10px rgb(230, 0, 0);
+
+.musicbody{
+    height: 100vh;
+    background-image: linear-gradient(0deg, rgb(247,247, 247) 23.8%, rgb(252, 221, 221) 92%);
+    display: flex;
+    flex-direction: column;
+}
+.img-container img{
+    height: 28vh;
+    width: 15vw;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    bottom: 0;
+    left: 0;
+}
+.img-container::after{
+    content: '';
+    background-color: black;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+/* .Hi::hover{
+    animation: animate 1.5s linear infinite;
+} */
+.music-container{
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 20px 20px 0 rgb(252 169 169 / 60%);
+    display: flex;
+    width: 334px;
+    height: 110px;
+    padding: 11px;
+    position: relative;
+    z-index: 10;
+}
+.img-container{
+    position: relative;
+
 }
