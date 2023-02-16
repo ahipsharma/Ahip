@@ -61,8 +61,11 @@
 
 .about {
     font-size: 35px;
+    font-family: Raleway;
 }
-
+.skills{
+    font-family: Raleway;
+}
 .moreabout {
     font-size: 20px;
     font-family: Raleway;
@@ -127,7 +130,7 @@
 .infodevPic {
     display: flex;
     position: absolute;
-    top: 44vh;
+    top: 50vh;
     right: 26%;
     margin: auto;
     height: 16vh;
@@ -373,5 +376,4 @@ hr {
 }
 .img-container{
     position: relative;
-
 }
